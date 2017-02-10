@@ -1,0 +1,40 @@
+html, body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+article {
+  margin-bottom: 50px;
+  /*border-bottom: 1px solid gray;*/
+}
+
+article .published {
+  color: gray;
+}
+
+article h1:nth-child(2) {
+  margin-top: 0;
+}
+
+.pagination a:first-child{
+  margin-right: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a.disabled {
+  color: gray;
+  cursor: not-allowed;
+}

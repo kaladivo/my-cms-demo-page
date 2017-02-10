@@ -1,0 +1,18 @@
+{
+	"Enter valid email": "Enter valid email",
+	"Password is required": "Password is required",
+	"Password must be at least 6 characters long": "Password must be at least 6 characters long",
+	"Successfully registered. Please login.": "Successfully registered. Please login.",
+	"Logout successful.": "Logout successful.",
+	"Passwords do not match": "Passwords do not match",
+	"Password reset": "Password reset",
+	"Reset token was send please check your email.": "Reset token was send please check your email.",
+	"Password was successfully changed. You can now login.": "Password was successfully changed. You can now login.",
+	"passwords do not match": "passwords do not match",
+	"password changed": "password changed",
+	"Admin invitation": "Admin invitation",
+	"User invited": "User invited",
+	"Invalid password.": "Invalid password.",
+	"Bad credentials": "Bad credentials",
+	"User removed": "User removed"
+}

@@ -1,0 +1,25 @@
+extends ../layout.pug
+
+block content
+  h1(class="title")  Blog
+  if !posts || posts.length <= 0
+    p(class="centered") No blog posts added yet. Add them in 
+      a(href="/admin") administration
+      | .
+  else
+    each post in posts
+      article
+        div(class="published") #{moment(post.published).format('YYYY-MM-DD')}
+        h1 #{post.title}
+        | !{marked(post.content)} 
+
+    div(class="pagination")
+      if page <= 1
+        a(href="/blog?page=1", class="disabled") Předchozí stránka
+      else 
+        a(href="/blog?page=" + (page - 1), ) Předchozí stránka
+      if page >= maxPages
+        a(href="/blog?page=" + maxPages, class="disabled") Další stránka
+      else
+        a(href="/blog?page=1" + (page + 1)) Další stránka
+

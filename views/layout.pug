@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    title Simple blog
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="/public/styles.css")
+  body
+    div
+      b Navigation:
+      ul(role="nav")
+        li
+          a(href="/") Front page
+        li
+          a(href="/about") About page
+        li
+          a(href="/contact") Contact page
+        li 
+          a(href="/blog") Blog
+    div(class="container")
+      block content
