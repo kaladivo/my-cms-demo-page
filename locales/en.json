@@ -14,5 +14,7 @@
 	"User invited": "User invited",
 	"Invalid password.": "Invalid password.",
 	"Bad credentials": "Bad credentials",
-	"User removed": "User removed"
+	"User removed": "User removed",
+	"Email already in database": "Email already in database",
+	"User with that email does not exist.": "User with that email does not exist."
 }
